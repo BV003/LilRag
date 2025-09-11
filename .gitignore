@@ -5,5 +5,4 @@ __pycache__/
 **/__pycache__/
 
 # 运行时生成的向量库文件
-data/store/faiss.index
-data/store/meta.pkl
+data/
