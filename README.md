@@ -2,6 +2,7 @@
 
 ## 项目代码结构
 
+```
 rag-baseline/
 ├── data/                        # 原始文档（pdf, md, txt等）
 ├── configs/                     # 配置文件（模型、数据库参数等）
@@ -34,3 +35,4 @@ rag-baseline/
 ├── requirements.txt             # Python依赖
 ├── README.md
 └── .env                         # 存放API key（环境变量）
+```
