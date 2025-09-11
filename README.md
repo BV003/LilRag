@@ -62,10 +62,10 @@ python scripts/run_qa.py --query "什么是 RAG？"
 
 ### 调参与扩展建议
 
-chunk size：max_chars 和 overlap 根据文档类型调整（长文档建议 800–1200，较短可 400）。
+chunk size：max_chars 和 overlap 根据文档类型调整（长文档建议 800–1200，较短可 400）
 
-reranker：检索后可用 cross-encoder reranker（例如 sentence-transformers 的 cross-encoder）对 top-k 重新排序。
+reranker：检索后可用 cross-encoder reranker（例如 sentence-transformers 的 cross-encoder）对 top-k 重新排序
 
-混合检索：BM25 + vector hybrid 对事实性查询更稳。
+混合检索：BM25 + vector hybrid 对事实性查询更稳
 
 持久化：上面把 metadata 用 pickle 保存；生产可以改成 sqlite 或向量 DB（Milvus/Pinecone/Weaviate）
