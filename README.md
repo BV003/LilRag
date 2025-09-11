@@ -1,6 +1,6 @@
 # RAG
 
-## 项目代码结构
+### 项目代码结构
 
 ```
 rag-baseline/
@@ -36,3 +36,36 @@ rag-baseline/
 ├── README.md
 └── .env                         # 存放API key（环境变量）
 ```
+
+
+
+### 运行流程
+
+激活虚拟环境并设置 Key放在 .env
+
+
+
+
+构建向量库
+```
+python scripts/build_vectorstore.py --data-dir data --index-path data/store/faiss.index --meta-path data/store/meta.pkl
+```
+
+
+运行 QA（交互式）
+```
+python scripts/run_qa.py --index-path data/store/faiss.index --meta-path data/store/meta.pkl
+
+# 或一次性查询：
+python scripts/run_qa.py --query "什么是 RAG？"
+```
+
+### 调参与扩展建议
+
+chunk size：max_chars 和 overlap 根据文档类型调整（长文档建议 800–1200，较短可 400）。
+
+reranker：检索后可用 cross-encoder reranker（例如 sentence-transformers 的 cross-encoder）对 top-k 重新排序。
+
+混合检索：BM25 + vector hybrid 对事实性查询更稳。
+
+持久化：上面把 metadata 用 pickle 保存；生产可以改成 sqlite 或向量 DB（Milvus/Pinecone/Weaviate）
