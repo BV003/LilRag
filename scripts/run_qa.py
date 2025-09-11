@@ -7,12 +7,14 @@ import argparse
 from src.vectorstore.faiss_store import FaissStore
 from src.embeddings.embedder import Embedder
 from src.llm.openai_llm import OpenAILLM
+from src.llm.doubao_llm import DouBaoLLM
 from src.pipeline.rag_pipeline import RAGPipeline
 
 def main(args):
     store = FaissStore.load(args.index_path, args.meta_path)
     embedder = Embedder(model_name=args.embed_model, device=args.device)
-    llm = OpenAILLM(model=args.openai_model, temperature=args.temperature)
+    # llm = OpenAILLM(model=args.openai_model, temperature=args.temperature)
+    llm = DouBaoLLM(model=args.openai_model, temperature=args.temperature)
     rag = RAGPipeline(store, embedder, llm, max_retrieval=args.max_retrieval)
 
     if args.query:

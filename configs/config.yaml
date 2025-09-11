@@ -1,15 +1,17 @@
 embedding:
-  model: "all-MiniLM-L6-v2"   # sentence-transformers 模型，按需替换
-  device: "auto"             # "auto" 会尝试用 GPU（若有）
-  max_chars: 1000
-  overlap: 200
+  model: "all-MiniLM-L6-v2"   # sentence-transformers 模型
+  device: "auto"              # "auto" 会尝试用 GPU（若有）
+  max_chars: 1000             # 文本切分最大长度
+  overlap: 200                # 文本切分重叠长度
   batch_size: 32
 
 faiss:
   index_path: "data/store/faiss.index"
   meta_path: "data/store/meta.pkl"
 
-openai:
-  model: "gpt-4o-mini"       # 或 "gpt-4o", "gpt-4" 等（按你订阅）
+llm:
+  provider: "doubao"          # "doubao" 或 "openai"
+  model: "doubao-1-5-lite-32k-250115"
   temperature: 0.0
-  max_retrieval: 5
+  max_retrieval: 5            # 检索 top-k 文档
+  stream: false               # 是否流式输出

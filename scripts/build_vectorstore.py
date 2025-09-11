@@ -13,6 +13,9 @@ import numpy as np
 import pickle
 from tqdm import tqdm
 
+
+
+
 def load_file_text(path):
     ext = os.path.splitext(path)[1].lower()
     if ext in [".txt", ".md"]:
