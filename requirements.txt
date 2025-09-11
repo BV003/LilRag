@@ -1,0 +1,6 @@
+faiss-cpu
+sentence-transformers
+openai
+PyPDF2
+tqdm
+python-dotenv
