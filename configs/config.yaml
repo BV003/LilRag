@@ -1,3 +1,6 @@
+data:
+  data_dir: "data/raw/"
+
 embedding:
   model: "all-MiniLM-L6-v2"   # sentence-transformers 模型
   device: "auto"              # "auto" 会尝试用 GPU（若有）

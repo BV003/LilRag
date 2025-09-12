@@ -9,12 +9,27 @@ from src.embeddings.embedder import Embedder
 from src.llm.openai_llm import OpenAILLM
 from src.llm.doubao_llm import DouBaoLLM
 from src.pipeline.rag_pipeline import RAGPipeline
+import yaml
+from types import SimpleNamespace
+
+def load_config(path=None):
+    """加载 YAML 配置文件"""
+    if path is None:
+        path = os.path.join(os.path.dirname(__file__), "..", "configs", "config.yaml")
+    with open(path, "r", encoding="utf-8") as f:
+        return yaml.safe_load(f)
 
 def main(args):
     store = FaissStore.load(args.index_path, args.meta_path)
     embedder = Embedder(model_name=args.embed_model, device=args.device)
-    # llm = OpenAILLM(model=args.openai_model, temperature=args.temperature)
-    llm = DouBaoLLM(model=args.openai_model, temperature=args.temperature)
+    
+
+    if args.llm_provider == "openai":
+        llm = OpenAILLM(model=args.llm_model, temperature=args.temperature)
+    elif args.llm_provider == "doubao":
+        llm = DouBaoLLM(model=args.llm_model, temperature=args.temperature)
+
+    
     rag = RAGPipeline(store, embedder, llm, max_retrieval=args.max_retrieval)
 
     if args.query:
@@ -42,13 +57,15 @@ def main(args):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--index-path", default="data/store/faiss.index")
-    parser.add_argument("--meta-path", default="data/store/meta.pkl")
-    parser.add_argument("--embed-model", default="all-MiniLM-L6-v2")
-    parser.add_argument("--device", default="auto")
-    parser.add_argument("--openai-model", default="gpt-4o-mini")
-    parser.add_argument("--temperature", type=float, default=0.0)
-    parser.add_argument("--max-retrieval", type=int, default=5)
+    config = load_config()
+    parser.add_argument("--index-path", default=config["faiss"]["index_path"])
+    parser.add_argument("--meta-path",default=config["faiss"]["meta_path"])
+    parser.add_argument("--embed-model", default=config["embedding"]["model"])
+    parser.add_argument("--device", default=config["embedding"]["device"])
+    parser.add_argument("--llm-provider", default=config["llm"]["provider"])
+    parser.add_argument("--llm-model", default=config["llm"]["model"])
+    parser.add_argument("--temperature", type=float, default=config["llm"]["temperature"])
+    parser.add_argument("--max-retrieval", type=int, default=config["llm"]["max_retrieval"])
     parser.add_argument("--query", default=None, help="one-shot query and exit")
     args = parser.parse_args()
     main(args)

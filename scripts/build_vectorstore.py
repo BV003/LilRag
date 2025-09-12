@@ -12,8 +12,16 @@ import glob
 import numpy as np
 import pickle
 from tqdm import tqdm
+import yaml
 
 
+
+def load_config(path=None):
+    """加载 YAML 配置文件"""
+    if path is None:
+        path = os.path.join(os.path.dirname(__file__), "..", "configs", "config.yaml")
+    with open(path, "r", encoding="utf-8") as f:
+        return yaml.safe_load(f)
 
 
 def load_file_text(path):
@@ -70,13 +78,14 @@ def main(args):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--data-dir", default="data", help="directory with docs")
-    parser.add_argument("--model", default="all-MiniLM-L6-v2")
-    parser.add_argument("--device", default="auto")
-    parser.add_argument("--max-chars", type=int, default=1000)
-    parser.add_argument("--overlap", type=int, default=200)
-    parser.add_argument("--batch-size", type=int, default=32)
-    parser.add_argument("--index-path", default="data/store/faiss.index")
-    parser.add_argument("--meta-path", default="data/store/meta.pkl")
+    config = load_config()
+    parser.add_argument("--data-dir", default=config["data"]["data_dir"], help="directory with docs")
+    parser.add_argument("--model", default=config["embedding"]["model"])
+    parser.add_argument("--device", default=config["embedding"]["device"])
+    parser.add_argument("--max-chars", type=int, default=config["embedding"]["max_chars"])
+    parser.add_argument("--overlap", type=int,default=config["embedding"]["overlap"])
+    parser.add_argument("--batch-size", type=int, default=config["embedding"]["batch_size"])
+    parser.add_argument("--index-path", default=config["faiss"]["index_path"])
+    parser.add_argument("--meta-path", default=config["faiss"]["meta_path"])
     args = parser.parse_args()
     main(args)

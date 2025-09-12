@@ -48,15 +48,12 @@ rag-baseline/
 
 构建向量库
 ```
-python scripts/build_vectorstore.py --data-dir data --index-path data/store/faiss.index --meta-path data/store/meta.pkl
+python scripts/build_vectorstore.py
 ```
 
 
 运行 QA（交互式）
 ```
-python scripts/run_qa.py --index-path data/store/faiss.index --meta-path data/store/meta.pkl
-
-# 或一次性查询：
 python scripts/run_qa.py --query "什么是 RAG？"
 ```
 
