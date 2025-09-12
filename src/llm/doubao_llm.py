@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 class DouBaoLLM(BaseLLM):
-    def __init__(self, model="doubao-1-5-lite-32k-250115"):
+    def __init__(self, model="doubao-1-5-lite-32k-250115",temperature=0.0, **kwargs):
         self.client = OpenAI(
             base_url=os.getenv("DOUBAO_BASE_URL", "https://ark.cn-beijing.volces.com/api/v3"),
             api_key=os.getenv("ARK_API_KEY"),
