@@ -13,6 +13,7 @@ import numpy as np
 import pickle
 from tqdm import tqdm
 import yaml
+import json
 
 
 
@@ -41,12 +42,34 @@ def load_file_text(path):
         except Exception as e:
             print(f"Failed to read pdf {path}: {e}")
             return ""
+    elif ext == ".json":
+        try:
+            import json
+            with open(path, "r", encoding="utf-8") as f:
+                data = json.load(f)  # data是顶层字典 {"questions": [...]}
+            
+            # 关键修正：提取questions列表（你的问题都在这个列表里）
+            questions = data.get("questions", [])  # 若没有questions键，返回空列表
+            
+            # 提取所有snippets中的text字段
+            all_snippets_text = []
+            for item in questions:  # 遍历每个问题（item是问题对象）
+                for snippet in item.get("snippets", []):  # 遍历该问题的snippets
+                    snippet_text = snippet.get("text", "")
+                    if snippet_text:
+                        all_snippets_text.append(snippet_text)
+            return "\n\n".join(all_snippets_text)
+        except Exception as e:
+            print(f"Failed to read json {path}: {e}")
+            return ""
     else:
         return ""
+    
+
 
 def main(args):
     files = []
-    for ext in ["*.txt", "*.md", "*.pdf"]:
+    for ext in ["*.txt", "*.md", "*.pdf","*.json"]:
         files += glob.glob(os.path.join(args.data_dir, "**", ext), recursive=True)
     print(f"Found {len(files)} files")
     chunks = []

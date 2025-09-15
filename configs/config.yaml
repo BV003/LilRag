@@ -1,5 +1,6 @@
 data:
-  data_dir: "data/raw/"
+  data_dir: "data/raw/rag-mini-bioasq/"
+  #   data_dir: "data/raw/text/"
 
 embedding:
   model: "all-MiniLM-L6-v2"   # sentence-transformers 模型
@@ -9,8 +10,10 @@ embedding:
   batch_size: 32
 
 faiss:
-  index_path: "data/store/faiss.index"
-  meta_path: "data/store/meta.pkl"
+  index_path: "data/store/rag-mini-bioasq/faiss.index"
+  meta_path: "data/store/rag-mini-bioasq/meta.pkl"
+  # index_path: "data/store/text/faiss.index"
+  # meta_path: "data/store/text/meta.pkl"
 
 llm:
   provider: "doubao"          # "doubao" 或 "openai"
