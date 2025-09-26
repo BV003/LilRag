@@ -67,47 +67,55 @@ LilRag/
 
 ### ⚡ Quick Start
 
-克隆仓库
+Clone the Repository
 
 ```
 git clone https://github.com/BV003/LilRag.git
 cd LilRag
 ```
 
-创建并激活虚拟环境  
-使用conda管理依赖。
+Create and Activate Virtual Environment.
+We recommend using conda for dependency management.
 
 ```
 conda create -n lilrag python=3.10 -y
 conda activate lilrag
 ```
 
-安装依赖
+Install Dependencies
 
 ```
 pip install -r requirements.txt
 ```
 
-配置环境变量  
-在项目根目录创建 .env 文件，添加你的 API Key（例如 OpenAI 或其他 LLM 提供商的 key）：
+Create a .env file in the project root directory and add your API Keys (e.g., OpenAI or other LLM providers):
 
 ```
 OPENAI_API_KEY=your_api_key_here  //openai
 ARK_API_KEY=************ //doubao
 ```
 
-准备数据  
-将原始数据放在data/raw文件夹下
+Place your raw documents under the data/raw folder
 
+```
+data/raw/
+  ├── doc1.pdf
+  ├── doc2.txt
+  └── ...
+```
 
-构建向量库
+Build the Vector Store
 
 ```
 python scripts/build_vectorstore.py
 ```
-这一步会读取 data/raw 下的文件，并生成向量索引存储在 data/vectorstore/。
+This will read the files under data/raw and generate a vector index stored in:
 
-运行 QA（交互式）
+```
+data/store/
+```
+
+Run QA (Interactive)
 
 ```
 python scripts/run_qa.py --query "什么是 RAG？"
