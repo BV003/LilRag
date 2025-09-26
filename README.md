@@ -1,6 +1,10 @@
-# RAG
+# LilRag
 
-### 项目代码结构
+### 🚀 Introduction
+
+### ✨ Features
+
+### 📂 Project Structure
 
 ```
 rag-baseline/
@@ -39,7 +43,7 @@ rag-baseline/
 
 
 
-### 运行流程
+### ⚡ Quick Start
 
 激活虚拟环境并设置 Key放在 .env
 
@@ -57,12 +61,11 @@ python scripts/build_vectorstore.py
 python scripts/run_qa.py --query "什么是 RAG？"
 ```
 
-### 调参与扩展建议
+### 🔥 For Beginners
 
-chunk size：max_chars 和 overlap 根据文档类型调整（长文档建议 800–1200，较短可 400）
+**This is an independent educational project, designed for learning and practice.**
 
-reranker：检索后可用 cross-encoder reranker（例如 sentence-transformers 的 cross-encoder）对 top-k 重新排序
-
-混合检索：BM25 + vector hybrid 对事实性查询更稳
-
-持久化：上面把 metadata 用 pickle 保存；生产可以改成 sqlite 或向量 DB（Milvus/Pinecone/Weaviate）
+If you are new to open source:
+- Don’t worry! This project is meant to be beginner-friendly 
+- You can start small (update README, add comments, fix small bugs) 
+- You can build on top of this project, customize it, and even use it as part of your course assignments or personal practice projects.🤪
