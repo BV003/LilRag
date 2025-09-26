@@ -2,47 +2,34 @@ Q: Is Hirschsprung disease a mendelian or a multifactorial disorder?
 Reference: Coding sequence mutations in RET, GDNF, EDNRB, EDN3, and SOX10 are involved in the development of Hirschsprung disease. The majority of these genes was shown to be related to Mendelian syndromic forms of Hirschsprung's disease, whereas the non-Mendelian inheritance of sporadic non-syndromic Hirschsprung disease proved to be complex; involvement of multiple loci was demonstrated in a multiplicative model.
 No RAG: Hirschsprung disease is a multifactorial disorder.
 
-1. **Mendelian disorders**:
-   - Mendelian disorders are caused by mutations in single genes and follow the patterns of inheritance described by Mendel (such as autosomal dominant, autosomal recessive, or X - linked inheritance).
-2. **Multifactorial disorders**:
-   - Hirschsprung disease results from a complex interplay of multiple genetic and environmental factors.
-   - There are over 20 genes that have been associated with an increased risk of Hirschsprung disease, but no single gene mutation is sufficient on its own to cause the disorder.
-   - Environmental factors like maternal smoking, low birth weight, and certain infections during pregnancy may also contribute to the development of Hirschsprung disease.
-
-So, it is considered a multifactorial disorder rather than a mendelian disorder. 
-With RAG: Hirschsprung disease (HSCR) is a multifactorial, non - mendelian disorder. In the etiology of Hirschsprung disease various genes play a role; these are: RET, EDNRB, GDNF, EDN3 and SOX10, NTN3, ECE1. Mutations in these genes may result in dominant, recessive or multifactorial patterns of inheritance. The non - Mendelian inheritance of sporadic non - syndromic Hirschsprung's disease proved to be complex; involvement of multiple loci was demonstrated in a multiplicative model.
+It is caused by a combination of genetic and environmental factors rather than following simple Mendelian inheritance patterns. Multiple genes likely contribute to its development, along with various environmental influences during fetal development. 
+With RAG: Hirschsprung disease (HSCR) is a multifactorial, non - mendelian disorder. In the etiology of Hirschsprung disease various genes play a role; these are: RET, EDNRB, GDNF, EDN3 and SOX10, NTN3, ECE1. Mutations in these genes may result in dominant, recessive or multifactorial patterns of inheritance. The non - Mendelian inheritance of sporadic non - syndromic Hirschsprung's disease proved to be complex; involvement of multiple loci was demonstrated in a multiplicative model. 
 Sources: [1], [2], [3], [4], [5]
 
 Q: List signaling molecules (ligands) that interact with the receptor EGFR?
 Reference: The 7 known EGFR ligands  are: epidermal growth factor (EGF), betacellulin (BTC), epiregulin (EPR), heparin-binding EGF (HB-EGF), transforming growth factor-α [TGF-α], amphiregulin (AREG) and epigen (EPG).
 No RAG: The epidermal growth factor receptor (EGFR) can interact with several signaling molecules (ligands), including:
-1. Epidermal growth factor (EGF): A well-known ligand for EGFR. It plays a crucial role in cell growth, proliferation, and survival.
-2. Transforming growth factor-alpha (TGF-α): Another ligand that binds to EGFR and activates its signaling pathway. TGF-α is involved in various cellular processes, such as cell growth, differentiation, and wound healing.
-3. Amphiregulin: This ligand can interact with EGFR and regulate cell growth, migration, and invasion.
-4. Heparin-binding EGF-like growth factor (HB-EGF): It binds to EGFR and is involved in cell proliferation, survival, and angiogenesis.
-5. Betacellulin: A ligand that activates EGFR and is important for pancreatic beta-cell function and insulin secretion.
+1. Epidermal growth factor (EGF): A small protein that stimulates cell growth, proliferation, and differentiation.
+2. Transforming growth factor-alpha (TGF-α): A ligand that is structurally related to EGF and also activates EGFR.
+3. Heparin-binding EGF-like growth factor (HB-EGF): This growth factor binds to EGFR and plays a role in various cellular processes, such as cell migration and survival.
 
-These ligands bind to EGFR, leading to receptor dimerization and activation of downstream signaling pathways, which ultimately regulate cell growth, survival, and differentiation. Dysregulation of EGFR signaling has been implicated in various diseases, including cancer. Understanding the ligands that interact with EGFR is important for developing targeted therapies to block abnormal EGFR signaling and treat related diseases.
-With RAG: - Epidermal growth factor (EGF)
+These ligands bind to the extracellular domain of EGFR, leading to receptor dimerization and activation of its tyrosine kinase activity. This activation triggers a series of intracellular signaling pathways that regulate cell growth, survival, and differentiation.
+With RAG: The signaling molecules (ligands) that interact with the receptor EGFR are:
+- Epidermal growth factor (EGF)
 - Amphiregulin (AR)
 - Transforming growth factor alpha (TGFα)
+- Heparin binding-EGF
 - Heparin-binding epidermal growth factor (HB-EGF)
 - Betacellulin (BTC)
 - Epiregulin (EREG)
 - Epigen (EPG)
 - Neuregulin 2 beta
-- Soluble amphiregulin
-- Heparin-binding epidermal growth factor-like growth factor
 
 Sources: [1], [2], [4]
 
 Q: Is the protein Papilin secreted?
 Reference: Yes,  papilin is a secreted protein
-No RAG: To determine if the protein Papilin is secreted, specific information about its cellular localization, function, and associated biological processes would be needed. Without such detailed knowledge, it's impossible to accurately say whether it is secreted or not.
-
-If Papilin is involved in processes like extracellular matrix remodeling, cell - cell communication, or is found in body fluids such as blood or secreted mucus, it is likely to be a secreted protein. However, if it is mainly localized within the cytoplasm, nucleus, or other intracellular compartments and has no known role in being transported outside the cell, then it is not secreted.
-
-So, based on the lack of specific details provided, I can't give a definite yes or no answer. 
+No RAG: Papilin is a protein that is secreted. It is a major allergen found in the saliva of the common house dust mite, Dermatophagoides pteronyssinus. The secretion of Papilin by the dust mite is thought to play a role in the allergic response it induces in humans. When the dust mite secretes Papilin, it can trigger an immune reaction in sensitive individuals, leading to allergic symptoms such as itching, sneezing, and asthma. So, the answer is yes. 
 With RAG: Yes, Papilin is secreted. Collagen IV, laminin, glutactin, papilin, and other extracellular matrix proteins were made primarily by hemocytes and were secreted into the medium. A sulfated glycoprotein was isolated from the culture media of Drosophila Kc cells and named papilin.
 Source: test.json | chunk_id: 8
 
@@ -50,129 +37,135 @@ Q: Are long non coding RNAs spliced?
 Reference: Long non coding RNAs appear to be spliced through the same pathway as the mRNAs
 No RAG: Long non-coding RNAs (lncRNAs) are spliced.
 
-Splicing is a process that occurs during gene expression in eukaryotes. It involves the removal of introns (non-coding regions) and the joining together of exons (coding regions) in pre-mRNA to form mature mRNA. LncRNAs are transcribed from DNA templates, just like protein-coding genes, and their primary transcripts often undergo splicing to generate the mature lncRNA molecules. This splicing process can be important for the proper function and regulation of lncRNAs, allowing them to interact with other molecules in the cell and participate in various biological processes such as gene regulation, chromatin remodeling, and cell differentiation. 
-With RAG: Yes, long non coding RNAs are spliced. Our analyses indicate that lncRNAs are generated through pathways similar to that of protein-coding genes, with similar histone-modification profiles, splicing signals, and exon/intron lengths. For alternative exons and long noncoding RNAs, splicing tends to occur later, and the latter might remain unspliced in some cases.
+Similar to protein-coding genes, lncRNAs are transcribed from DNA into primary transcripts. These primary transcripts often undergo splicing, a process in which introns are removed and exons are joined together to form a mature, functional RNA molecule. Splicing helps to generate different isoforms of lncRNAs, which can have diverse functions in the cell, such as regulating gene expression at the transcriptional, post-transcriptional, or epigenetic levels. 
+With RAG: Yes, long non coding RNAs are spliced. Our analyses indicate that lncRNAs are generated through pathways similar to that of protein - coding genes, with similar splicing signals. For alternative exons and long noncoding RNAs, splicing tends to occur later, and the latter might remain unspliced in some cases.
 Source: test.json | chunk_id: 8
 
 Q: Is RANKL secreted from the cells?
 Reference: Receptor activator of nuclear factor κB ligand (RANKL) is a cytokine predominantly secreted by osteoblasts.
 No RAG: RANKL (Receptor Activator of Nuclear Factor-κB Ligand) is secreted from cells.
 
-It is produced by various cell types such as osteoblasts, osteocytes, and activated T cells. Secreted RANKL plays a crucial role in the regulation of bone metabolism and immune responses by binding to its receptor RANK on osteoclast precursors, promoting their differentiation and activation into mature osteoclasts which are responsible for bone resorption. 
-With RAG: Yes, RANKL is secreted from the cells. Activated human T cells express alternative mRNA transcripts encoding a secreted form of RANKL. Osteoblasts secrete RANKL. Source: test.json | chunk_id: 10, test.json | chunk_id: 11
+It is produced by various cell types including osteoblasts, osteocytes, and activated T lymphocytes. Secreted RANKL plays a crucial role in bone metabolism and immune responses by binding to its receptor RANK on osteoclast precursors and mature osteoclasts, promoting osteoclast differentiation, activation, and survival, which in turn affects bone resorption. 
+With RAG: Yes, RANKL is secreted from the cells. Activated human T cells express alternative mRNA transcripts encoding a secreted form of RANKL. Osteoblasts also secrete RANKL. Source: test.json | chunk_id: 10, test.json | chunk_id: 11
 
 Q: Does metformin interfere thyroxine absorption?
 Reference: No. There are not reported data indicating that metformin reduce with thyroxine absorption.
 No RAG: Metformin does not interfere with thyroxine absorption.
 
-Metformin is an oral antidiabetic drug mainly used to treat type 2 diabetes. It works by decreasing blood sugar levels through various mechanisms such as reducing hepatic glucose production and improving insulin sensitivity.
+Metformin is an oral antidiabetic drug, mainly acting on the liver, muscle and adipose tissue to improve insulin sensitivity and reduce blood glucose levels. Thyroxine is a hormone replacement drug used to treat hypothyroidism. There is no evidence to suggest that metformin affects the absorption, metabolism or efficacy of thyroxine.
 
-Thyroxine is a hormone produced by the thyroid gland and is used in the treatment of hypothyroidism. When taken orally, thyroxine needs to be absorbed properly to exert its therapeutic effect.
-
-There is no evidence to suggest that metformin has an impact on the absorption of thyroxine. However, it is always important to consult a healthcare provider if there are any concerns about the interaction of medications or if there are changes in the effectiveness of either drug during treatment. 
+However, when taking these two drugs simultaneously, it is still necessary to pay attention to observing the body's reaction and regularly review relevant indicators to ensure the safety and effectiveness of drug use. If there are any concerns or questions, it is advisable to consult a doctor or pharmacist for professional advice. 
 With RAG: LT4 absorption is unchanged by concomitant metformin ingestion. Source: test.json | chunk_id: 12
 
 Q: Which miRNAs could be used as potential biomarkers for epithelial ovarian cancer?
 Reference: miR-200a, miR-100, miR-141, miR-200b, miR-200c, miR-203, miR-510, miR-509-5p, miR-132, miR-26a, let-7b, miR-145, miR-182, miR-152, miR-148a, let-7a, let-7i, miR-21, miR-92 and miR-93 could be used as potential biomarkers for epithelial ovarian cancer.
-No RAG: Here are some miRNAs that have shown potential as biomarkers for epithelial ovarian cancer:
-- miR-21: It is often upregulated in epithelial ovarian cancer and is associated with tumor growth, invasion, and metastasis.
-- miR-145: Frequently downregulated in ovarian cancer and may play a role in tumor suppression.
-- miR-125b: Its abnormal expression has been linked to epithelial ovarian cancer development and progression.
-- miR-375: Changes in its expression levels are observed in ovarian cancer and are related to aspects such as cell proliferation and apoptosis.
+No RAG: MicroRNAs (miRNAs) have shown promise as potential biomarkers for epithelial ovarian cancer. Here are some miRNAs that have been identified:
 
-The identification of these miRNAs as potential biomarkers is based on extensive research in the field, which has investigated their differential expression patterns between cancerous and non-cancerous ovarian tissues, as well as their correlation with various clinical and pathological features of the disease. However, further validation and standardization are needed before they can be widely used in clinical practice for early diagnosis, prognosis assessment, and treatment monitoring of epithelial ovarian cancer. 
+1. miR-200 family: This family of miRNAs, including miR-200a, miR-200b, miR-200c, miR-141, and miR-429, is frequently downregulated in epithelial ovarian cancer. They play important roles in epithelial-mesenchymal transition (EMT), a process associated with cancer invasion and metastasis.
+2. miR-155: It is upregulated in epithelial ovarian cancer and is involved in various cellular processes such as cell proliferation, apoptosis, and immune response.
+3. miR-21: Overexpression of miR-21 has been observed in epithelial ovarian cancer. It promotes cancer cell survival, invasion, and angiogenesis.
+4. miR-125b: Downregulation of miR-125b has been reported in epithelial ovarian cancer. It functions as a tumor suppressor and regulates cell growth, apoptosis, and EMT.
+5. miR-375: This miRNA is downregulated in epithelial ovarian cancer and may be involved in tumorigenesis through its effects on cell proliferation, apoptosis, and migration.
+
+These are just a few examples of miRNAs that have been investigated as potential biomarkers for epithelial ovarian cancer. The dysregulation of miRNAs can provide valuable information about the diagnosis, prognosis, and treatment response of the disease. However, further research is needed to validate their clinical utility and develop reliable miRNA-based diagnostic and prognostic tools.
+
+It's important to note that miRNA expression profiles can vary among different patients and tumor subtypes, and the identification of specific miRNA biomarkers may require comprehensive analysis of large patient cohorts. Additionally, the combination of multiple miRNAs or miRNA signatures may provide more accurate and robust diagnostic and prognostic information.
+
+In conclusion, miRNAs have the potential to be used as valuable biomarkers for epithelial ovarian cancer, but their translation into clinical practice requires further investigation and validation.
 With RAG: The following miRNAs could be used as potential biomarkers for epithelial ovarian cancer:
-- miR-21: Serum miR-21 levels were significantly higher in EOC patients than in healthy controls. Increased serum miR-21 expression was correlated with advanced FIGO stage, high tumor grade, and shortened overall survival, indicating it may serve as a novel diagnostic and prognostic marker. (Source: test.json | chunk_id: 15 | chunk_id: 16)
-- miR-132, miR-26a, let-7b, and miR-145: These miRNAs were significantly underexpressed in the serum of ovarian cancer patients in qRT-PCR and could be considered as potential candidates as novel biomarkers in serous ovarian cancer. (Source: test.json | chunk_id: 16)
+- miR-21: Serum miR-21 levels were significantly higher in EOC patients than in healthy controls. Increased serum miR-21 expression was correlated with advanced FIGO stage, high tumor grade, and shortened overall survival, indicating it may serve as a novel diagnostic and prognostic marker. (Source: test.json | chunk_id: 15)
+- miR-132, miR-26a, let-7b, and miR-145: Could be considered as potential candidates as novel biomarkers in serous ovarian cancer. Four out of 5 selected miRNAs (miR-132, miR-26a, let-7b, and miR-145) were significantly underexpressed in the serum of ovarian cancer patients in qRT-PCR. (Source: test.json | chunk_id: 16)
 - miR-100: Low miR-100 expression may be an independent poor prognostic factor and it can function as a tumor suppressor by targeting PLK1 in human EOCs. (Source: test.json | chunk_id: 17)
-- miR-152 and miR-148a: May be involved in the carcinogenesis of ovarian cancer through deregulation of cell proliferation and may be novel biomarkers for early detection or therapeutic targets of ovarian cancer. (Source: test.json | chunk_id: 17 | chunk_id: 18)
-- miR-510 and miR-509-5p: May play a role in the progression of OSC and may be considered novel-candidate clinical biomarkers for predicting OSC outcome. (Source: test.json | chunk_id: 15 | chunk_id: 18)
-- miR-182, miR-200a, miR-200b and miR-200c: Were highly overexpressed in the SEOC cell lines relative to normal human ovarian surface epithelial cells and were assessed in RNA extracted from serum as candidate biomarkers. (Source: test.json | chunk_id: 17)
-- miR-200c: Has potential as a predictor of survival and is a biomarker of relapse in stage I EOC. (Source: test.json | chunk_id: 18)
+- miR-152 and miR-148a: May be involved in the carcinogenesis of ovarian cancer through deregulation of cell proliferation and may be novel biomarkers for early detection or therapeutic targets of ovarian cancer. (Source: test.json | chunk_id: 17)
+- miR-182, miR-200a, miR-200b, and miR-200c: Were highly overexpressed in the SEOC cell lines relative to normal human ovarian surface epithelial cells and were assessed in RNA extracted from serum as candidate biomarkers. miR-200c has potential as a predictor of survival and is a biomarker of relapse in stage I EOC. (Source: test.json | chunk_id: 17)
+- miR-510 and miR-509-5p: May be considered novel-candidate clinical biomarkers for predicting OSC outcome as low miR-510 expression, low miR-509-5p expression, and advanced FIGO stage, and chemotherapy resistance were significantly associated with poorer overall survival. (Source: test.json | chunk_id: 14, 15)
+- let-7a: The beneficial impact of the addition of paclitaxel on EOC survival was significantly linked to let-7a levels, suggesting it may be a useful marker for selection of chemotherapeutic agents in EOC management. (Source: test.json | chunk_id: 18)
 - let-7i: Might be used as a therapeutic target to modulate platinum-based chemotherapy and as a biomarker to predict chemotherapy response and survival in patients with ovarian cancer. (Source: test.json | chunk_id: 18)
 
-Sources: test.json | chunk_id: 15 | chunk_id: 16 | chunk_id: 17 | chunk_id: 18
+Sources: test.json | chunk_id: 14, 15, 16, 17, 18
 
 Q: Which acetylcholinesterase inhibitors are used for treatment of myasthenia gravis?
 Reference: Pyridostigmine and neostygmine are acetylcholinesterase inhibitors that are used as first-line therapy for symptomatic treatment of myasthenia gravis. Pyridostigmine is the most widely used acetylcholinesterase inhibitor. Extended release pyridotsygmine and novel acetylcholinesterase inhibitors inhibitors with oral antisense oligonucleotides are being studied.
 No RAG: The following acetylcholinesterase inhibitors are commonly used in the treatment of myasthenia gravis:
-- Pyridostigmine: It is one of the most widely used drugs for myasthenia gravis. It works by inhibiting acetylcholinesterase, which increases the concentration of acetylcholine at the neuromuscular junction, improving muscle strength.
-
-These medications help manage the symptoms of myasthenia gravis by enhancing nerve impulse transmission to the muscles. However, the specific choice and dosage of the acetylcholinesterase inhibitor are determined by a healthcare provider based on the individual patient's condition. 
-With RAG: Pyridostigmine is the most widely used acetylcholinesterase inhibitor for the treatment of myasthenia gravis. It has been used for over 50 years and is generally considered safe. It is suitable as a long-term treatment in patients with generalized non-progressive milder disease, and as an adjunctive therapy in patients with severe disease who are also receiving immunotherapy.
+- **Neostigmine**: It is one of the most frequently used drugs. It helps increase the levels of acetylcholine at the neuromuscular junction, improving muscle strength.
+- **Pyridostigmine**: This is also a widely employed acetylcholinesterase inhibitor for myasthenia gravis. It has a relatively longer duration of action compared to some other agents. 
+With RAG: Pyridostigmine is the most widely used acetylcholinesterase inhibitor for the treatment of myasthenia gravis. It has been used for over 50 years and is generally considered safe. It is suitable as a long-term treatment in patients with generalized non-progressive milder disease, and as an adjunctive therapy in patients with severe disease who are also receiving immunotherapy. 
 Source: [1][3]
 
 Q: Has Denosumab (Prolia) been approved by FDA?
 Reference: Yes, Denosumab was approved by the FDA in 2010.
-No RAG: Denosumab (Prolia) has been approved by the FDA. It was approved by the U.S. Food and Drug Administration (FDA) in 2010 for the treatment of postmenopausal women with osteoporosis at high risk of fracture, including women who have had a prior osteoporotic fracture or who have multiple risk factors for fracture. It is also approved for the treatment of glucocorticoid-induced osteoporosis in men and women at high risk of fracture, and for the treatment of giant cell tumor of bone that is unresectable or where surgery would result in severe morbidity. 
-With RAG: Yes, Denosumab (Prolia) has been approved by the FDA. It has been approved for clinical use in the US since June 2010 for the treatment of postmenopausal osteoporosis. It has also been approved for the treatment of patients whose GCTB is unresectable, or when surgery is likely to result in severe morbidity, on 13 June 2013. It has been approved for patients with bone metastasis after showing a reduction in the occurrence of skeletal-related events and for the prevention of skeletal complications in patients with bone metastases due to solid tumor malignancies. Additionally, it has been approved to treat skeletal-related events in bone-metastatic prostate cancer.
+No RAG: Denosumab (Prolia) has been approved by the FDA.
+
+It is approved for the treatment of postmenopausal women with osteoporosis at high risk of fracture, to increase bone mass in men with osteoporosis, to treat glucocorticoid-induced osteoporosis in men and women, and to increase bone mass in patients with bone metastases from solid tumors and multiple myeloma. 
+With RAG: Yes, Denosumab (Prolia) has been approved by the FDA. It has been approved for the treatment of postmenopausal osteoporosis in women at a high or increased risk of fracture since June 2010. It has also been approved for the treatment of patients whose giant cell tumor of bone (GCTB) is unresectable, or when surgery is likely to result in severe morbidity, on 13 June 2013. It has been approved for the prevention of skeletal-related events (SREs) in adults with bone metastases from solid tumors, including breast cancer. It has also been approved for the treatment of skeletal-related events in bone-metastatic prostate cancer.
 Sources: [1], [2], [3], [4], [5]
 
 Q: List the human genes encoding for the dishevelled proteins?
 Reference: DVL-1
 DVL-2
 DVL-3
-No RAG: There are three human genes encoding for the dishevelled proteins: DVL1, DVL2, and DVL3.
+No RAG: There are three human genes encoding for the dishevelled proteins: DVL1, DVL2, and DVL3. 
 With RAG: There is no information provided in the given context about the human genes encoding for the dishevelled proteins.
 Sources: [1], [2], [3], [4], [5]
 
 Q: Name synonym of Acrokeratosis paraneoplastica.
 Reference: Acrokeratosis paraneoplastic (Bazex syndrome) is a rare, but distinctive paraneoplastic dermatosis characterized by erythematosquamous lesions located at the acral sites and is most commonly associated with carcinomas of the upper aerodigestive tract.
-No RAG: Acrokeratosis paraneoplastica is also known as Bazex syndrome. 
+No RAG: Acrokeratosis paraneoplastica is also known as Bazex syndrome.
 With RAG: Bazex syndrome
-Sources: [1], [2], [3], [4], [5]
+Sources: [1] Source: test.json | chunk_id: 32, [2] Source: test.json | chunk_id: 31, [3] Source: test.json | chunk_id: 33, [4] Source: test.json | chunk_id: 34, [5] Source: test.json | chunk_id: 30
 
 Q: Which are the classes of anti-arrhythmic drugs according to Vaughan-Williams classification?
 Reference: Antiarrhythmic drugs can be divided into four Vaughan Williams classes (I-IV). Class I antiarrhythmic agents have as a common action, blockade of the sodium channels. Class II agents are antisympathetic drugs, particularly the beta-adrenoceptor blockers. Class-III antiarrhythmics have as a common action the potassium-channel blockade. Class IV antiarrhythmic drugs are calcium channel blockers.
-No RAG: The Vaughan-Williams classification divides anti-arrhythmic drugs into the following classes:
+No RAG: The Vaughan - Williams classification divides anti - arrhythmic drugs into the following classes:
 
 **Class I: Sodium channel blockers**
-- **Class IA**: Quinidine, procainamide, disopyramide. They moderately block sodium channels, slow the rate of depolarization, prolong the action potential duration (APD) and the effective refractory period (ERP).
-- **Class IB**: Lidocaine, mexiletine. They weakly block sodium channels, shorten the APD in ischemic or depolarized tissue, and have relatively little effect on the ERP.
-- **Class IC**: Flecainide, propafenone. They strongly block sodium channels, slow the rate of depolarization, and have little effect on the APD.
+- **Class IA**: Moderate sodium channel blockers. Examples include quinidine, procainamide, and disopyramide. They also have some potassium channel blocking effects, which prolong the action potential duration.
+- **Class IB**: Mild sodium channel blockers. Such as lidocaine, mexiletine. They have a relatively short duration of action and are more effective against abnormal automaticity.
+- **Class IC**: Strong sodium channel blockers with slow dissociation. For example, flecainide, propafenone. They have a long - lasting effect on sodium channels and are useful in treating supraventricular and ventricular arrhythmias.
 
 **Class II: β - blockers**
-Examples include propranolol, metoprolol, atenolol. They act by blocking β - adrenergic receptors, reducing the effects of sympathetic stimulation on the heart, decreasing heart rate, myocardial contractility, and conduction velocity.
+Examples are propranolol, atenolol, metoprolol. They act by blocking β - adrenergic receptors, reducing the influence of sympathetic nervous system on the heart, and are effective in treating arrhythmias related to increased sympathetic tone, such as supraventricular tachycardia and some ventricular arrhythmias.
 
 **Class III: Potassium channel blockers**
-- Amiodarone, sotalol. They block potassium channels, prolong the APD and ERP, and also have some non-specific effects on other ion channels and receptors.
+- Amiodarone, sotalol. They prolong the action potential duration by blocking potassium channels, which is beneficial for treating various types of arrhythmias, especially atrial fibrillation, ventricular tachycardia, etc.
 
 **Class IV: Calcium channel blockers**
-Verapamil, diltiazem. They block calcium channels, reducing calcium influx into myocardial cells, slowing the rate of depolarization, and decreasing myocardial contractility and conduction velocity, especially in the AV node.
+Verapamil and diltiazem are examples. They block calcium channels, mainly affecting the slow calcium current in myocardial cells. They are effective in treating supraventricular arrhythmias, such as paroxysmal supraventricular tachycardia.
 
-**Class V: Miscellaneous**
-Adenosine. It acts on adenosine receptors to hyperpolarize cells, slow conduction, and terminate certain supraventricular tachyarrhythmias. 
-With RAG: Class I antiarrhythmic agents include most of the drugs traditionally thought of as antiarrhythmics, and have as a common action, blockade of the fast-inward sodium channel on myocardium. Class II agents are antisympathetic drugs, particularly the b-adrenoceptor blockers. Class III antiarrhythmic agents include sotalol and amiodarone. Class IV antiarrhythmic drugs are the calcium channel blockers verapamil and diltiazem.
-Sources: [1][2][3][4]
+**Others**
+- **Class V**: This class includes drugs that do not fit into the previous four classes, such as adenosine. Adenosine acts on specific adenosine receptors in the heart to rapidly terminate certain supraventricular tachycardias. 
+With RAG: Antiarrhythmic drugs can be divided into four Vaughan Williams classes (I-IV) according to defined electrophysiological effects on the myocardium. Class I antiarrhythmic agents include most of the drugs traditionally thought of as antiarrhythmics, and have as a common action, blockade of the fast-inward sodium channel on myocardium. Class II agents are antisympathetic drugs, particularly the beta-adrenoceptor blockers. Class III antiarrhythmic agents include sotalol and amiodarone. Class IV antiarrhythmic drugs are the calcium channel blockers verapamil and diltiazem.
+Source: test.json | chunk_id: 35, 38
 
 Q: Which are the different isoforms of the mammalian Notch receptor?
 Reference: Notch signaling is an evolutionarily conserved mechanism, used to regulate cell fate decisions. Four Notch receptors have been identified in man: Notch-1, Notch-2, Notch-3 and Notch-4.
-No RAG: There are four different isoforms of the mammalian Notch receptor: Notch1, Notch2, Notch3, and Notch4. Each isoform has a unique structure and function, and they play important roles in various biological processes such as cell fate determination, differentiation, and proliferation. The Notch receptors are transmembrane proteins that interact with ligands on neighboring cells, leading to the activation of a signaling cascade that regulates gene expression. The different isoforms of the Notch receptor are expressed in different tissues and cell types, and their activation can have different effects on cell behavior depending on the context.
-With RAG: The different isoforms of the mammalian Notch receptor are NOTCH1, NOTCH2, NOTCH3, and NOTCH4.
-Sources: [1], [3]
+No RAG: There are four different isoforms of the mammalian Notch receptor: Notch1, Notch2, Notch3, and Notch4. Each isoform has distinct functions and expression patterns in different tissues and developmental processes.
+With RAG: The different mammalian Notch receptor isoforms are NOTCH1, NOTCH2, NOTCH3, and NOTCH4. Sources: [1], [3]
 
 Q: Which are the major characteristics of cellular senescence?
 Reference: The defining characteristics of cellular senescence are altered morphology, arrested cell-cycle progression, development of aberrant gene expression with proinflammatory behavior, and telomere shortening.
 No RAG: Cellular senescence is a complex biological process with several major characteristics:
 
 **1. Irreversible growth arrest**
-   - Cells in senescence stop dividing. This is often due to activation of cell cycle - inhibiting pathways. For example, the p53 - p21 and p16 - RB pathways are commonly involved. p53 can induce the expression of p21, which binds to cyclin - dependent kinases (CDKs) and inhibits their activity, thus blocking the cell cycle progression at various checkpoints such as the G1/S transition. p16 inhibits CDK4/6, preventing phosphorylation of the retinoblastoma protein (RB), which also leads to cell cycle arrest.
+   - Cells enter a state where they can no longer divide. This is often accompanied by changes in the cell cycle machinery. For example, there is a stable arrest in the G1 phase, which is regulated by the activation of cell cycle inhibitors such as p53 and p21.
+   - The expression of genes involved in DNA replication and cell cycle progression is downregulated, while genes associated with a quiescent state are upregulated.
 
 **2. Senescence - associated secretory phenotype (SASP)**
-   - Senescent cells secrete a complex mixture of cytokines, growth factors, proteases, and chemokines.
-   - These secreted factors can have both autocrine and paracrine effects. Autocrine effects can further reinforce the senescent state of the cell, while paracrine effects can influence neighboring cells, the extracellular matrix, and the immune system. For example, they can promote chronic inflammation, which is associated with many age - related diseases. SASP factors can also affect tissue repair and remodeling processes.
+   - Senescent cells secrete a complex mixture of cytokines, chemokines, growth factors, and proteases.
+   - This includes interleukin - 6 (IL - 6), tumor necrosis factor - alpha (TNF - α), and matrix metalloproteinases (MMPs). The SASP can have both autocrine and paracrine effects. Autocrine signaling can further reinforce the senescent phenotype, while paracrine effects can influence neighboring cells, the extracellular matrix, and the overall tissue environment. It can contribute to chronic inflammation, tissue remodeling, and potentially play a role in age - related diseases and cancer development.
 
-**3. Alterations in chromatin structure**
-   - Senescent cells show changes in chromatin organization. Heterochromatin accumulates, and there are alterations in histone modifications. For instance, there is an increase in histone H3K9 methylation, which is associated with transcriptional repression. These chromatin changes can lead to the silencing of certain genes, further contributing to the stable maintenance of the senescent phenotype.
+**3. Morphological changes**
+   - Cells often show enlarged and flattened morphology.
+   - There are also changes in the structure of the cytoplasm, with increased vacuolization. In addition, the nucleus may become enlarged and exhibit chromatin alterations, such as increased heterochromatinization.
 
-**4. Mitochondrial dysfunction**
-   - Mitochondria in senescent cells often show reduced membrane potential, impaired respiratory function, and increased production of reactive oxygen species (ROS).
-   - The reduced mitochondrial function can lead to energy deficits within the cell. Additionally, the increased ROS can cause oxidative damage to cellular components such as DNA, proteins, and lipids, further contributing to the aging - related decline in cellular function.
+**4. Metabolic alterations**
+   - There are changes in cellular metabolism. Senescent cells tend to have a decreased rate of oxidative phosphorylation and an increased reliance on glycolysis, even in the presence of oxygen (a phenomenon known as the Warburg effect).
+   - They also show alterations in nutrient sensing pathways, such as the mammalian target of rapamycin (mTOR) pathway, which can affect protein synthesis, autophagy, and cell survival.
 
-**5. Lysosomal changes**
-   - Lysosomes in senescent cells may show alterations in their function and morphology. There can be an increase in lysosomal mass, and some lysosomal enzymes may become more active.
-   - These changes can lead to enhanced proteolysis within the cell, which may contribute to the breakdown of cellular components during senescence. However, abnormal lysosomal activity can also result in the release of harmful enzymes that can damage the cell further. 
-With RAG: Its defining characteristics are arrested cell-cycle progression and the development of aberrant gene expression with proinflammatory behavior. Source: test.json | chunk_id: 41
+**5. Lysosomal and mitochondrial dysfunction**
+   - Lysosomes in senescent cells may exhibit increased membrane permeability and abnormal enzyme activity. This can lead to the release of lysosomal hydrolases, which can contribute to the degradation of cellular components and the activation of inflammatory pathways.
+   - Mitochondria in senescent cells often show morphological changes, such as swelling, and reduced mitochondrial membrane potential. There is also a decrease in mitochondrial DNA content and respiratory chain function, leading to increased production of reactive oxygen species (ROS). The elevated ROS levels can further damage cellular components and contribute to the senescent phenotype. 
+With RAG: The major characteristics of cellular senescence are arrested cell-cycle progression and the development of aberrant gene expression with proinflammatory behavior. Source: [1]
 
 Q: Orteronel was developed for treatment of which cancer?
 Reference: Orteronel was developed for treatment of castration-resistant prostate cancer.
@@ -181,42 +174,43 @@ With RAG: Orteronel was developed for the treatment of prostate cancer, specific
 
 Q: Is the monoclonal antibody Trastuzumab (Herceptin) of potential use in the treatment of prostate cancer?
 Reference: Although is still controversial, Trastuzumab (Herceptin) can be of potential use in the treatment of prostate cancer overexpressing HER2, either alone or in combination with other drugs.
-No RAG: Trastuzumab (Herceptin) is not typically used in the treatment of prostate cancer.
+No RAG: Trastuzumab (Herceptin) is not typically of direct use in the treatment of prostate cancer.
 
-Trastuzumab is a monoclonal antibody that targets the human epidermal growth factor receptor 2 (HER2). It is mainly used in the treatment of breast cancer, especially HER2-positive breast cancer.
+Trastuzumab is a monoclonal antibody that targets the human epidermal growth factor receptor 2 (HER2). It is mainly used in the treatment of certain breast cancers where there is overexpression of HER2.
 
-Prostate cancer has its own specific molecular characteristics and treatment approaches. While there are various treatments available for prostate cancer, such as surgery, radiation therapy, hormonal therapy, and chemotherapy, drugs targeting HER2 like Trastuzumab are not part of the standard treatment regimens for prostate cancer.
-
-So, the answer is no. 
-With RAG: There is evidence suggesting that trastuzumab may have potential in treating prostate cancer. Some studies indicate that the docetaxel/trastuzumab combination may be an effective therapeutic approach for HER2-expressing hormone-refractory prostate cancer. However, there is also a lack of clinical data to support the use of trastuzumab for prostate cancer patients. Additionally, trastuzumab as a single agent demonstrated poor efficacy in treating HRPC, and conclusions regarding the predictive value of HER-2 status on outcome after trastuzumab-based therapy were not reached. Overall, while there are some indications of potential, more research is needed. Sources: [1], [2], [5] 
+Prostate cancer does not usually involve the HER2 pathway in the same way as the breast cancers for which Herceptin is indicated. Treatment of prostate cancer typically involves approaches such as surgery, hormonal therapy (e.g., androgen deprivation), chemotherapy, and radiotherapy, which are tailored to the specific biology and characteristics of prostate cancer cells. 
+With RAG: There is evidence suggesting that trastuzumab may have potential in treating prostate cancer, but there are also limitations. Some studies indicate that the docetaxel/trastuzumab combination may be an effective therapeutic approach for HER2-expressing hormone-refractory prostate cancer. However, there is no clinical data to support the use of trastuzumab for prostate cancer patients. Trastuzumab as a single agent demonstrated poor efficacy in treating HRPC. Also, conclusions regarding the predictive value of HER-2 status on outcome after trastuzumab-based therapy were not reached without larger-scale screening efforts.
+Sources: [1], [2], [5]
 
 Q: Which are the Yamanaka factors?
 Reference: The Yamanaka factors are the OCT4, SOX2, MYC, and KLF4 transcription factors
-No RAG: The Yamanaka factors are four transcription factors: Oct4 (also known as Oct3/4), Sox2, Klf4, and c-Myc. These factors can reprogram somatic cells into induced pluripotent stem cells (iPSCs).
-With RAG: The Yamanaka factors are Oct4, Sox2, Klf4, and c-Myc (also known as OSKM, Pou5f1, Myc, Klf4, and Sox2; c-Myc, Klf4, Oct3/4, and Sox2; Oct3/4, Sox2, Klf4, and c-Myc; SOX2, OCT3/4, and KLF4, with or without c-MYC; OCT4, SOX2, MYC, and KLF4; c-myc, KLF4, Oct3/4 and SOX2).
-Sources: [1], [3]
+No RAG: The Yamanaka factors are four transcription factors: Oct4 (also known as Oct3/4), Sox2, Klf4, and c-Myc. These factors were discovered by Shinya Yamanaka and his team. When these four factors are introduced into somatic cells, they can reprogram the cells to a pluripotent state, similar to embryonic stem cells. This discovery has had a profound impact on the field of stem cell research and regenerative medicine.
+With RAG: The Yamanaka factors are Oct4, Sox2, Klf4, and c-Myc (also known as OSKM, Pou5f1, Myc, Klf4, and Sox2, c-Myc, Klf4, Oct3/4, and Sox2, Oct3/4, Sox2, Klf4, and c-Myc, SOX2, OCT3/4, and KLF4, with or without c-MYC, Oct3/4, Sox2, Klf4, c-Myc). Sources: [1][2][3]
 
 Q: What is the aim of the Human Chromosome-centric Proteome Project (C-HPP)?
 Reference: The chromosome-centric human proteome project aims to systematically map all human proteins, chromosome by chromosome, in a gene-centric manner through dedicated efforts from national and international teams
-No RAG: The aim of the Human Chromosome-centric Proteome Project (C-HPP) is to map and characterize the proteomes of individual human chromosomes. This involves identifying all the proteins encoded by each chromosome, understanding their functions, interactions, and expression patterns across different tissues and cell types. By doing so, it aims to provide a comprehensive view of the protein complement associated with each chromosome, which can contribute to a better understanding of normal cellular processes, disease mechanisms, and potentially lead to the discovery of new therapeutic targets. 
-With RAG: The aim of the Chromosome-centric Human Proteome Project (C-HPP) is to map and annotate all proteins encoded by the genes on each human chromosome. It also aims to identify compelling biological and genetic mechanisms influencing colocated genes and their protein products, foster the development of proteome analysis and integration of findings from related molecular -omics technology platforms, and especially to identify proteins that currently lack evidence by mass spectrometry. Additionally, it aims to contribute to the accomplishment of the primary goal of the C-HPP in identifying so-called "missing proteins" and generating a whole protein catalog for each chromosome. It is also an international effort for creating an annotated proteomic catalog for each chromosome and aims to systematically map the entire human proteome with the intent to enhance our understanding of human biology at the cellular level.
-Sources: [1], [2], [4]
+No RAG: The aim of the Human Chromosome-centric Proteome Project (C-HPP) is to comprehensively identify and characterize the proteins encoded by each human chromosome. This includes determining the full complement of proteins associated with specific chromosomes, understanding their functions, post-translational modifications, tissue and cell type distributions, and interactions, in order to gain a more complete understanding of the molecular basis of human biology and disease related to chromosomal functions. 
+With RAG: The aim of the Chromosome-centric Human Proteome Project (C-HPP) is to map and annotate all proteins encoded by the genes on each human chromosome. It also aims to identify compelling biological and genetic mechanisms influencing colocated genes and their protein products, foster the development of proteome analysis and integration of findings from related molecular -omics technology platforms, and especially to identify proteins that currently lack evidence by mass spectrometry. Additionally, it aims to make progress in the understanding of human biology in health and disease, and to create an annotated proteomic catalog for each chromosome by systematically mapping all human proteins, chromosome by chromosome, in a gene-centric manner.
+Sources: [1], [2], [3], [4], [5]
 
 Q: Where is the protein Pannexin1 located?
 Reference: The protein Pannexin1 is localized to the plasma membranes.
-No RAG: Pannexin1 is a protein located in the plasma membrane of cells. It forms channels that play roles in various cellular processes such as cell - cell communication, release of signaling molecules, and responses to different stimuli. It is expressed in many cell types throughout the body including neurons, glial cells, immune cells, and epithelial cells. 
-With RAG: In mammals, Panx1 is widely expressed in the CNS including the inner and outer retinae. It is also located on the surface of horizontal cell dendrites invaginating deeply into the cone pedicle near the glutamate release sites of the cones. 
-Sources: [1], [2], [3]
+No RAG: Pannexin1 is a protein located in the plasma membrane of cells. It forms channels that play roles in various cellular processes such as cell - cell communication, release of signaling molecules, and responses to different stimuli. It is expressed in many cell types throughout the body, including neurons, glial cells, immune cells, and epithelial cells. 
+With RAG: In mammals, Panx1 is widely expressed in the CNS including the inner and outer retinae. Also, zfPanx1 was identified on the surface of horizontal cell dendrites invaginating deeply into the cone pedicle near the glutamate release sites of the cones.
+Sources: [1][2][3]
 
 Q: Which currently known mitochondrial diseases have been attributed to POLG mutations?
 Reference: Mutations in the POLG gene have emerged as one of the most common causes of inherited mitochondrial disease in children and adults. They are responsible for a heterogeneous group of at least 6 major phenotypes of neurodegenerative disease that include: 1) childhood Myocerebrohepatopathy Spectrum disorders (MCHS), 2) Alpers syndrome, 3) Ataxia Neuropathy Spectrum (ANS) disorders, 4) Myoclonus Epilepsy Myopathy Sensory Ataxia (MEMSA), 5) autosomal recessive Progressive External Ophthalmoplegia (arPEO), and 6) autosomal dominant Progressive External Ophthalmoplegia (adPEO).
 No RAG: POLG mutations have been associated with several mitochondrial diseases, including:
 1. Alpers-Huttenlocher syndrome: A severe neurological disorder characterized by progressive liver failure, epilepsy, and developmental regression.
-2. Mitochondrial neurogastrointestinal encephalomyopathy (MNGIE): Causes problems in the nervous system, gastrointestinal tract, and muscles, leading to symptoms such as neuropathy, gastrointestinal dysmotility, and ophthalmoplegia.
-3. Progressive external ophthalmoplegia (PEO) with mitochondrial DNA deletions: PEO is characterized by weakness of the eye muscles, and in some cases, POLG mutations can contribute to the development of PEO along with mitochondrial DNA deletions.
-4. Ataxia-neuropathy syndrome: Features ataxia (uncoordinated movements) and neuropathy (nerve damage).
+2. Progressive external ophthalmoplegia (PEO) with mitochondrial DNA depletion: PEO is characterized by weakness of the eye muscles, and mitochondrial DNA depletion is a common feature in some cases associated with POLG mutations.
+3. Myoclonic epilepsy with ragged-red fibers (MERRF) syndrome: Although MERRF is typically associated with mitochondrial DNA mutations, some cases have been linked to POLG mutations.
+4. Ataxia-neuropathy syndrome: This syndrome is characterized by ataxia (uncoordinated movements), neuropathy (nerve damage), and other neurological symptoms.
+5. Infantile-onset spinocerebellar ataxia: A rare neurological disorder that affects the cerebellum and spinal cord, leading to progressive motor problems.
+6. Pearson syndrome: A disorder that typically presents with pancreatic exocrine insufficiency, anemia, and mitochondrial abnormalities.
+7. Multiple mitochondrial dysfunctions syndrome (MMDS): MMDS is a heterogeneous group of disorders characterized by multiple mitochondrial abnormalities, and some cases are associated with POLG mutations.
 
-These are just some of the mitochondrial diseases linked to POLG mutations, and ongoing research continues to expand our understanding of the relationship between POLG and mitochondrial disorders.
+It's important to note that the clinical manifestations of POLG-related mitochondrial diseases can vary widely, even within the same family, and the diagnosis often requires a combination of clinical, biochemical, and genetic testing. Additionally, new cases and subtypes of POLG-related diseases are still being discovered as our understanding of mitochondrial genetics and disease mechanisms continues to evolve. If you have specific concerns or questions about a particular mitochondrial disease or POLG mutations, it is advisable to consult with a geneticist or a specialist in mitochondrial medicine for personalized information and guidance.
 With RAG: Mutations in the POLG gene have been associated with a mitochondrial disease - autosomal dominant or recessive progressive external ophthalmoplegia - and multiple deletions of mtDNA. They are responsible for a heterogeneous group of at least 6 major phenotypes of neurodegenerative disease that include: 1) childhood Myocerebrohepatopathy Spectrum disorders (MCHS), 2) Alpers syndrome, 3) Ataxia Neuropathy Spectrum (ANS) disorders, 4) Myoclonus Epilepsy Myopathy Sensory Ataxia (MEMSA), 5) autosomal recessive Progressive External Ophthalmoplegia (arPEO), and 6) autosomal dominant Progressive External Ophthalmoplegia (adPEO).
 Sources: [1], [2]
 
@@ -225,30 +219,26 @@ Reference: Ιvabradine decreases heart rate and reduces myocardial oxygen demand
 No RAG: Ivabradine has the following effects in heart failure after myocardial infarction:
 
 ### 1. Heart rate reduction
-- **Mechanism**
-    - Ivabradine selectively inhibits the If current (funny current) in the sinoatrial node. This leads to a decrease in the spontaneous diastolic depolarization rate of sinoatrial node cells, thereby reducing the heart rate.
-- **Beneficial effects**
-    - By reducing the heart rate, it can lower myocardial oxygen consumption. In patients with heart failure after myocardial infarction, the heart is already in a state of increased workload and oxygen demand. A lower heart rate helps to relieve the excessive burden on the heart muscle, which is beneficial for myocardial recovery and reducing the risk of further myocardial ischemia.
+- **Mechanism**: Ivabradine selectively inhibits the If current (funny current) in the sinoatrial node. By reducing the If current, it slows the spontaneous diastolic depolarization of pacemaker cells in the sinoatrial node, thereby decreasing the heart rate.
+- **Benefit**: In patients with heart failure after myocardial infarction, a lower heart rate can reduce myocardial oxygen demand. This is particularly important as the heart muscle has already been damaged by the infarction, and excessive oxygen consumption due to a high heart rate can further strain the heart. A reduced heart rate allows the heart to have more time for diastolic filling, which can improve cardiac output and cardiac efficiency.
 
-### 2. Improvement of cardiac function
-- **Enhanced diastolic function**
-    - A slower heart rate allows for a longer diastolic filling time. This provides more time for the heart to fill with blood, improving ventricular diastolic compliance and enhancing the filling of the ventricles. As a result, cardiac output can be better maintained, especially in the setting of reduced systolic function often seen after myocardial infarction.
-- **Potential impact on systolic function**
-    - Although the primary mechanism is not directly related to enhancing contractility, by reducing myocardial oxygen demand and optimizing the cardiac cycle, it may indirectly contribute to better systolic performance. It helps to maintain a more favorable balance between oxygen supply and demand in the myocardium, which can support the overall function of the heart in the context of heart failure post - myocardial infarction.
+### 2. Improvement in cardiac function
+- **Enhanced diastolic function**: The reduction in heart rate helps to improve diastolic function. Adequate diastolic filling is crucial for maintaining cardiac output. With a slower heart rate, the heart has more time to relax and fill with blood during diastole, which can lead to an increase in end - diastolic volume and ultimately improve stroke volume and cardiac output.
+- **Reduced myocardial remodeling**: Chronic elevation of heart rate is associated with adverse myocardial remodeling. By lowering the heart rate, ivabradine may help to attenuate the process of myocardial remodeling. This can involve reducing myocardial fibrosis, preserving myocardial structure, and potentially improving the long - term prognosis of heart failure patients after myocardial infarction.
 
 ### 3. Mortality and morbidity reduction
-- **Mortality**
-    - Clinical studies have shown that ivabradine can reduce the risk of cardiovascular mortality in patients with heart failure after myocardial infarction, especially in those with a heart rate above a certain threshold (usually 70 beats per minute). By improving myocardial function and reducing the workload on the heart, it helps to prevent progressive heart failure and associated life - threatening events.
-- **Morbidity**
-    - It can also reduce the incidence of hospitalizations related to heart failure exacerbations. By maintaining better cardiac function, patients experience fewer decompensations, leading to a better quality of life and reduced healthcare resource utilization. 
-With RAG: Ivabradine protects the myocardium during ischemia, improves left ventricular function in heart failure and reduces remodeling following myocardial infarction. It improves prognosis in patients with heart failure and left ventricular dysfunction. Addition of ivabradin to standard treatment of SCCF after MI promoted less frequency of hospitalizations, recurrent non - fatal MI, fatal cardiovascular events. This effect was especially strong in high baseline HR. In the subset analysis focusing on patients with baseline HR >=70 bpm and left ventricular ejection fraction <40% the agent resulted in a 36% decrease in hospital admissions secondary to fatal and nonfatal myocardial infarction and a 30% decrease in coronary revascularization. Treatment with ivabradine was associated with a 13% relative risk reduction for the composite of cardiovascular mortality or HF hospitalization (driven by HF hospitalizations, 19%).
-
-Sources: [1], [3], [5]
+- **Mortality**: Studies have shown that ivabradine can reduce the risk of cardiovascular mortality in patients with heart failure after myocardial infarction, especially in those with a heart rate above a certain threshold (usually ≥70 beats per minute). By improving cardiac function and reducing the workload on the damaged heart, it may contribute to better survival.
+- **Morbidity**: It can also lead to a reduction in hospitalizations for heart failure exacerbations. By maintaining relatively stable cardiac function, patients experience fewer decompensations, which improves their quality of life and reduces the economic burden associated with repeated hospitalizations. 
+With RAG: Ivabradine protects the myocardium during ischemia, improves left ventricular function in heart failure and reduces remodeling following myocardial infarction. It improves prognosis in patients with heart failure and left ventricular dysfunction. Addition of ivabradin to standard treatment of SCCF after MI promoted less frequency of hospitalizations, recurrent non - fatal MI, fatal cardiovascular events. This effect was especially strong in high baseline HR. In the subset analysis focusing on patients with baseline HR > or =70 bpm and left ventricular ejection fraction <40% the agent resulted in a 36% decrease in hospital admissions secondary to fatal and nonfatal myocardial infarction and a 30% decrease in coronary revascularization.
+Source: [1][3][5]
 
 Q: What is the mode of inheritance of Wilson's disease?
 Reference: Wilson's disease (WD) is an autosomal recessive disorder.
-No RAG: Wilson's disease is an autosomal recessive disorder. This means that an individual must inherit two copies of the mutated gene (one from each parent) to develop the disease. Carriers, who have only one copy of the mutated gene, do not have the disease but can pass the gene on to their offspring.
-With RAG: Wilson's disease has an autosomal recessive mode of inheritance. Sources: [1] Source: test.json | chunk_id: 76; [2] Source: test.json | chunk_id: 77; [3] Source: test.json | chunk_id: 78
+No RAG: Wilson's disease is an autosomal recessive disorder.
+
+In autosomal recessive inheritance, an individual must inherit two copies of the mutated gene (one from each parent) to develop the disease. Carriers have one normal and one mutated copy of the gene and do not show symptoms of the disease but can pass the mutated gene on to their offspring. 
+With RAG: Wilson's disease has an autosomal recessive mode of inheritance. This means that inheritance of a pair of alleles of an autosomal recessive gene on chromosome 13 is necessary and sufficient to cause copper accumulation in the disease. When familial, it is inherited recessively and has been linked to chromosome 20. Autosomal recessive inheritance indicates that siblings of affected patients are at 25% risk of having the disease. The autosomal recessive mode of inheritance strongly suggests that mutation of a single gene causes the impairment of both caeruloplasmin synthesis and biliary copper excretion.
+Sources: [1], [2], [3]
 
 Q: Are transcription and splicing connected?
 Reference: Yes. There is strong evidence that splicing and transcription are intimately coupled in metazoans, with  genome wide surveys show that most splicing occurs during transcription. Chromatin structure, RNA polymerase dynamics, and recruitment of splicing factors through the transcriptional machinery are factors that explain a role for transcription in the regulation of splicing.
@@ -256,60 +246,74 @@ No RAG: Transcription and splicing are connected.
 
 During transcription, an RNA molecule is synthesized from a DNA template. In eukaryotes, the initial RNA transcript, called pre - mRNA, often contains non - coding regions known as introns interspersed with coding regions called exons. Splicing then occurs, which is the process of removing the introns and joining the exons together to form a mature mRNA molecule that can be translated into a protein.
 
-So, splicing is a subsequent step that acts on the product of transcription, and they are sequential and related processes in gene expression. 
-With RAG: Yes, transcription and splicing are connected. Spliceosome assembly occurs co-transcriptionally, raising the possibility that DNA structure may directly influence alternative splicing. The rate of transcription elongation has been linked to alternative splicing. Transcription factors are present in the spliceosome and there are proteins with dual activities in splicing and transcription. Chromatin structure is another layer of regulation that may act through various mechanisms spanning from regulation of RNA polymerase II elongation, which ultimately determines splicing decisions, to splicing factor recruitment by specific histone marks. Moreover, splicing was found to be necessary for the proper 'writing' of particular chromatin signatures, giving further mechanistic support to functional interconnections between splicing, transcription and chromatin structure.
-Sources: [2][3][4][1]
+So, splicing is a crucial step that follows transcription and modifies the product of transcription to generate a functional mRNA for translation.
+With RAG: Yes, transcription and splicing are connected. Splicing regulation depends on transcription-associated features such as protein recruitment to the transcribing machinery and elongation kinetics. Chromatin structure, which is involved in transcription regulation, also affects splicing through various mechanisms. The rate of transcription elongation has been linked to alternative splicing. Moreover, cotranscriptional splicing occurs efficiently in Drosophila, and there is a kinetic link between transcription, splicing factor recruitment, and splicing catalysis. Transcription factors are present in the spliceosome, and proteins with dual activities in splicing and transcription add a new level of complexity to the regulation of gene expression in eukaryotes.
+Sources: [1], [2], [3], [4]
 
 Q: What is the mode of inheritance of Facioscapulohumeral muscular dystrophy (FSHD)?
 Reference: Facioscapulohumeral muscular dystrophy has an autosomal dominant inheritance pattern.
-No RAG: Facioscapulohumeral muscular dystrophy (FSHD) is an autosomal dominant disorder. This means that an affected individual has a 50% chance of passing the mutated gene on to each of their children. The disorder is caused by a deletion in a specific region of chromosome 4. However, the inheritance pattern can be complex in some cases due to factors such as reduced penetrance (not all individuals with the mutated gene develop symptoms) and variable expression (the severity of symptoms can vary among affected individuals). 
-With RAG: Facioscapulohumeral muscular dystrophy (FSHD) has an autosomal dominant mode of inheritance. Source: [1] [2] [3] 
+No RAG: Facioscapulohumeral muscular dystrophy (FSHD) is inherited in an autosomal dominant pattern.
+
+In autosomal dominant inheritance, a single copy of the mutated gene is sufficient to cause the disorder. This means that an affected individual has a 50% chance of passing the mutated gene on to each of their offspring.
+
+FSHD is caused by mutations in the D4Z4 repeat region on chromosome 4. These mutations lead to abnormal gene expression and muscle weakness, which typically affects the facial, shoulder, and upper arm muscles.
+
+The inheritance pattern of FSHD can be complex, as there are different types of mutations and variable expression of the disease within families. Some individuals may have a milder form of the disorder, while others may experience more severe symptoms.
+
+Genetic testing can be used to confirm the diagnosis of FSHD and to identify the specific mutation in affected individuals. This information can be helpful for genetic counseling and family planning.
+
+In summary, Facioscapulohumeral muscular dystrophy is inherited in an autosomal dominant pattern, with a single copy of the mutated gene causing the disorder.
+With RAG: Facioscapulohumeral muscular dystrophy (FSHD) has an autosomal dominant mode of inheritance.
+Sources: [1], [2], [3]
 
 Q: Is Alu hypomethylation associated with breast cancer?
 Reference: Yes, Alu elements were found to be hypomethylated in breast cancer, especially in the HER2-enriched subtype. Furthermore, Alu hypomethylation was identified as a late event during breast cancer progression, and in invasive breast cancer, tended to be associated with negative estrogen receptor status and poor disease-free survival of the patients.
 No RAG: Alu hypomethylation is associated with breast cancer.
 
-Alu elements are repetitive DNA sequences in the human genome. Changes in their methylation status can have important implications for gene regulation and genomic stability. In breast cancer, alterations in DNA methylation patterns, including hypomethylation of Alu elements, have been observed. Hypomethylation of Alu elements can lead to increased transcriptional activity of nearby genes, potentially contributing to cancer development, progression, and metastasis through various mechanisms such as activation of oncogenes, disruption of tumor suppressor gene regulation, and genomic instability.
-With RAG: Yes, Alu hypomethylation is associated with breast cancer. Alu and LINE-1 hypomethylation is associated with HER2 enriched subtype of breast cancer. In IBC, Alu hypomethylation correlated with negative estrogen receptor (ER) status. In survival analyses, low Alu methylation status tended to be associated with poor disease-free survival of the patients. Alu hypomethylation is probably a late event during breast cancer progression and prominent hypomethylation of Alu and LINE-1 in HER2 enriched subtype may be related to chromosomal instability of this specific subtype. DNA methylation for three repetitive elements (LINE1, Sat2 and Alu) were analyzed in invasive ductal carcinoma of the breast, paired adjacent normal tissue and WBC from 40 breast cancer patients. DNA methylation for the three repetitive elements was lower in tumor compared to adjacent tissue and WBC DNA.
-Sources: [1][2]
+Alu elements are repetitive DNA sequences in the genome. Hypomethylation of Alu elements has been observed in various cancers, including breast cancer. This hypomethylation can lead to increased Alu element transcription and subsequent genomic instability, potentially contributing to cancer development and progression. Altered methylation patterns of Alu elements are thought to be involved in processes such as gene regulation dysregulation, activation of oncogenes, and inactivation of tumor suppressor genes in breast cancer. 
+With RAG: Yes, Alu hypomethylation is associated with breast cancer. Alu and LINE-1 hypomethylation is associated with HER2 enriched subtype of breast cancer. In IBC, Alu hypomethylation correlated with negative estrogen receptor (ER) status. In survival analyses, low Alu methylation status tended to be associated with poor disease-free survival of the patients. Alu hypomethylation is probably a late event during breast cancer progression and prominent hypomethylation of Alu and LINE-1 in HER2 enriched subtype may be related to chromosomal instability of this specific subtype. DNA methylation for three repetitive elements (LINE1, Sat2 and Alu) were analyzed in invasive ductal carcinoma of the breast, paired adjacent normal tissue and WBC from 40 breast cancer patients and DNA methylation for the three repetitive elements was lower in tumor compared to adjacent tissue and WBC DNA.
+Source: test.json | chunk_id: 85, test.json | chunk_id: 86
 
 Q: Which proteins participate in the formation of the ryanodine receptor quaternary macromolecular complex?
 Reference: Junctin is a major transmembrane protein in cardiac junctional sarcoplasmic reticulum, which forms a quaternary complex with the ryanodine receptor (Ca(2+) release channel), triadin, and calsequestrin.   
-No RAG: The ryanodine receptor quaternary macromolecular complex is formed by the ryanodine receptor itself along with other associated proteins. Some of the proteins that participate in its formation include calstabin1 (FKBP12), which binds to the ryanodine receptor and modulates its function. Additionally, other regulatory and accessory proteins may also be involved in stabilizing and modulating the properties of this complex. However, the specific composition can vary depending on the tissue and cellular context.
-
-It's important to note that ongoing research continues to further elucidate the exact details of the proteins involved and their precise roles in the formation and function of the ryanodine receptor quaternary macromolecular complex. 
-With RAG: The proteins that participate in the formation of the ryanodine receptor quaternary macromolecular complex are calsequestrin, triadin, and junctin.
-Sources: [1], [2], [3], [4], [5]
+No RAG: The ryanodine receptor quaternary macromolecular complex is formed by the ryanodine receptor itself along with other associated proteins such as FKBP12 (FK506-binding protein 12). FKBP12 binds to the ryanodine receptor and modulates its function. Additionally, calstabin1 (also known as FKBP12.6) is another important protein that is part of this complex and plays a role in stabilizing and regulating the activity of the ryanodine receptor. 
+With RAG: Junctin, calsequestrin, and triadin participate in the formation of the ryanodine receptor quaternary macromolecular complex. Sources: [1] Source: test.json | chunk_id: 90, [2] Source: test.json | chunk_id: 88, [3] Source: test.json | chunk_id: 87, [4] Source: test.json | chunk_id: 91, [5] Source: test.json | chunk_id: 89
 
 Q: What kind of chromatography is HILIC?
 Reference: Hydrophilic Interaction Chromatography (HILIC)
 No RAG: HILIC stands for hydrophilic interaction liquid chromatography. It is a type of liquid chromatography.
 
-In HILIC, the stationary phase is polar, while the mobile phase is relatively less polar. Compounds with hydrophilic or polar functional groups interact more strongly with the polar stationary phase. This allows for the separation of polar analytes based on their different degrees of interaction with the stationary phase. It is particularly useful for separating polar compounds such as sugars, amino acids, nucleosides, and small polar metabolites. HILIC is often employed in applications like pharmaceutical analysis, environmental analysis, and food analysis to separate and detect polar substances. 
-With RAG: Hydrophilic-interaction liquid chromatography (HILIC) is a widely used technique for small polar molecule analysis. It is a hydrophilic interaction chromatographic method.
-Source: [1] Source: test.json | chunk_id: 92
+In HILIC, the stationary phase is polar, while the mobile phase is relatively less polar. Analytes interact with the polar stationary phase based on hydrophilic interactions. It is particularly useful for separating polar compounds such as carbohydrates, peptides, and small polar molecules. HILIC can be complementary to reversed-phase chromatography and is often employed in various analytical applications, including drug analysis, metabolite profiling, and separation of biomolecules. 
+With RAG: Hydrophilic interaction liquid chromatography (HILIC) is a widely used technique for small polar molecule analysis. It is a type of chromatography where a hydrophilic interaction chromatographic (HILIC) method is used. In the study mentioned, a hydrophilic interaction liquid chromatography-tandem mass spectrometry (HILIC LC-MS/MS) method is employed.
+Source: [1]
 
 Q: What is the effect of TRH on myocardial contractility?
 Reference: TRH improves myocardial contractility
-No RAG: TRH (thyrotropin-releasing hormone) has a positive inotropic effect on myocardial contractility.
+No RAG: TRH (thyrotropin-releasing hormone) can have a positive inotropic effect on myocardial contractility.
 
-TRH can increase the intracellular calcium concentration in myocardial cells through various mechanisms. This enhanced calcium availability leads to more forceful myocardial contractions, thereby increasing myocardial contractility. It does this by acting on specific receptors in the heart and influencing the calcium handling processes within the myocardial cells, ultimately contributing to an improvement in cardiac performance. 
-With RAG: TRH can enhance cardiomyocyte contractility in vivo. It improves mean arterial pressure (MAP), myocardial contractile parameters (+/- dp/dtmax, Vpm and Vmax), cardiac contractility, cardiac output, and hemodynamics. TRH increased the contractile force of muscles dose-dependently without changing the time course of contraction and potentiated the response of contractile force to increasing extracellular Ca2+ concentration. It has a positive inotropic effect at least partly due to an increase in the slow inward Ca2+ current. Acute intravenous administration of TRH to rats with ischemic cardiomyopathy caused a significant increase in heart rate, mean arterial pressure, cardiac output, stroke volume, and cardiac contractility. TRH in the range of 0.1 - 10 mumol/l was found to exert a positive inotropic effect on cardiac contractility.
-Sources: [1], [3], [92]
+TRH acts on the myocardium directly or indirectly through its actions on the thyroid axis and other regulatory systems. It may increase the availability of calcium ions within the myocardial cells, which are crucial for muscle contraction. By enhancing the contractile machinery and promoting more efficient calcium handling, TRH can lead to an increase in the force of myocardial contraction. This can contribute to maintaining cardiac output and overall cardiovascular function under certain physiological or pathophysiological conditions. 
+With RAG: TRH can enhance cardiomyocyte contractility in vivo. It improves mean arterial pressure (MAP) and myocardial contractility (dp/dtmax, -dp/dtmax, Vpm, and Vmax). TRH increases the contractile force of muscles dose-dependently without changing the time course of contraction. It potentiates the response of contractile force to increasing extracellular Ca2+ concentration and has a positive inotropic effect at least partly due to an increase in the slow inward Ca2+ current. Acute intravenous administration of TRH to rats with ischemic cardiomyopathy caused a significant increase in heart rate, mean arterial pressure, cardiac output, stroke volume, and cardiac contractility. TRH in the range of 0.1 - 10 mumol/l was found to exert a positive inotropic effect on cardiac contractility.
+Sources: [1][3][92]
 
 Q: Proteomic analyses need prior knowledge of the organism complete genome. Is the complete genome of the bacteria of the genus Arthrobacter available?
 Reference: Yes, the complete genome sequence of Arthrobacter (two strains) is deposited in GenBank.
-No RAG: The availability of the complete genome of bacteria in the genus Arthrobacter can vary among different species within the genus. Some species of Arthrobacter may have their complete genomes sequenced and publicly available, while for others, the complete genome may not be sequenced yet or may be in the process of being characterized.
-
-To determine if the complete genome of a specific Arthrobacter bacterium is available, one would need to search relevant genomic databases such as GenBank (NCBI), Ensembl Bacteria, or other specialized microbial genomics repositories. These databases can provide information on the genomic status of individual Arthrobacter species, including whether their genomes have been fully sequenced, annotated, and deposited.
-
-So, without specifying a particular Arthrobacter species, it cannot be simply stated that the complete genome of all bacteria in the genus Arthrobacter is available or not. It depends on the specific organism in question. 
-With RAG: Yes, the complete genome of the bacteria of the genus Arthrobacter is available. The following Arthrobacter strains have their complete genome sequences described: Arthrobacter phenanthrenivorans type strain (Sphe3), Arthrobacter sp. Rue61a, Arthrobacter sp. B6, Arthrobacter sp. ZXY-2, Arthrobacter sp. strain EpSL27, Arthrobacter sp. strain KI72, and Arthrobacter alpinus R3.8.
+No RAG: As of July 2023, the complete genomes of some Arthrobacter species are available. Scientists have sequenced the genomes of various Arthrobacter strains, which has provided valuable information for understanding their genetic makeup, metabolic capabilities, and evolutionary relationships. This genomic data is crucial for proteomic analyses and other molecular studies of Arthrobacter bacteria. So, the answer is yes. 
+With RAG: Yes, the complete genome of the bacteria of the genus Arthrobacter is available. The complete genome sequences of Arthrobacter phenanthrenivorans type strain (Sphe3), Arthrobacter sp. Rue61a, Arthrobacter sp. B6, Arthrobacter sp. ZXY-2, Arthrobacter sp. strain EpSL27, Arthrobacter sp. strain KI72, and Arthrobacter alpinus R3.8 have been reported.
 Sources: [1], [2]
 
 Q: What is the structural fold of bromodomain proteins?
 Reference: The structure fold of the bromodomains is an all-alpha-helical fold, which includes a left-handed four-helix bundle topology, with two short additional helices in a long connecting loop.
-No RAG: Bromodomain proteins typically have a conserved structural fold. The bromodomain is a protein module that consists of a bundle of four alpha helices. It has a characteristic binding pocket that is able to recognize and bind to acetylated lysine residues on target proteins. This binding interaction is important for various cellular processes such as gene regulation, chromatin remodeling, and signal transduction. The overall structure of the bromodomain provides a specific surface for this interaction with acetylated lysine, allowing bromodomain-containing proteins to play key roles in mediating the effects of acetylation in the cell. 
-With RAG: The bromodomain proteins typically have an all-alpha-helical fold. However, there are also some additional structural features. For example, the double bromodomain has a left-handed four-helix bundle topology, with two short additional helices in a long connecting loop. There is also an unusual left-handed up-and-down four-helix bundle. In addition, for the first time, a small beta-sheet was observed in the ZA loop region of the BRG1 protein.
+No RAG: Bromodomain proteins typically have a conserved structural fold known as the bromodomain fold.
+
+The bromodomain is composed of a bundle of four alpha helices, which form a hydrophobic core. The helices are arranged in a specific orientation such that they create a binding pocket on the surface of the protein. This pocket is lined with amino acid residues that are important for recognizing and binding to acetylated lysine residues on target proteins.
+
+The binding of bromodomains to acetylated lysines is crucial for various biological processes, including gene regulation, chromatin remodeling, and signal transduction. By interacting with acetylated histones or other proteins, bromodomain-containing proteins can influence chromatin structure, gene expression, and protein-protein interactions.
+
+Overall, the bromodomain fold provides a specific structural framework for bromodomain proteins to interact with acetylated lysine residues and play important roles in cellular functions.
+
+It's important to note that there can be some variations in the exact structure and properties of bromodomains among different proteins, but the core four-alpha-helix fold is a common feature. Additionally, bromodomains can sometimes be found in combination with other protein domains, further expanding their functional capabilities.
+
+If you need more detailed or specific information about bromodomain protein structure, it may be beneficial to refer to scientific literature, research articles, or textbooks on protein structure and molecular biology.
+With RAG: The bromodomain proteins typically have an all-alpha-helical fold. However, in the ZA loop region of the BRG1 protein, a small beta-sheet was observed for the first time. The Brg1 bromodomain conserves the left-handed, four-helix bundle topology found in other bromodomain structures. There are significant differences in loop regions, especially in the ZA loop where a two amino acids insertion is involved in an uncommon pi-helix termed piD. The 2.1 angstrom crystal structure of the double bromodomain reveals two side-by-side, four-helix bundles with a highly polarized surface charge distribution and has a left-handed four-helix bundle topology, with two short additional helices in a long connecting loop.
 Sources: [1], [2], [3]
 

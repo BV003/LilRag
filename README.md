@@ -99,19 +99,18 @@ Install Dependencies
 pip install -r requirements.txt
 ```
 
-Create a .env file in the project root directory and add your API Keys (e.g., OpenAI or other LLM providers):
+Create a .env file in the project root directory and add your API Keys (e.g., OpenAI or other LLM providers) You can also use other models, as long as you implement the corresponding class under /llm.
 
 ```
 OPENAI_API_KEY=your_api_key_here  //openai
-ARK_API_KEY=************ //doubao
+ARK_API_KEY=your_api_key_here //doubao
 ```
 
 Place your raw documents under the data/raw folder
 
 ```
-data/raw/
-  ├── doc1.pdf
-  ├── doc2.txt
+data/raw/text
+  ├── example.txt
   └── ...
 ```
 
@@ -133,7 +132,62 @@ python scripts/run_qa.py --query "什么是 RAG？"
 ```
 
 ### 🧪 Demo
+I conducted a simple experiment.
+I placed a test.json file under data/raw/rag-mini-bioasq, which contains 30 professional medical knowledge items.
+A sample data item is as follows:
+```
+{
+         "body": "Is Hirschsprung disease a mendelian or a multifactorial disorder?", 
+         "documents": [
+            "http://www.ncbi.nlm.nih.gov/pubmed/15858239", 
+            "http://www.ncbi.nlm.nih.gov/pubmed/15829955", 
+            "http://www.ncbi.nlm.nih.gov/pubmed/6650562", 
+            "http://www.ncbi.nlm.nih.gov/pubmed/12239580", 
+            "http://www.ncbi.nlm.nih.gov/pubmed/21995290", 
+            "http://www.ncbi.nlm.nih.gov/pubmed/23001136", 
+            "http://www.ncbi.nlm.nih.gov/pubmed/15617541", 
+            "http://www.ncbi.nlm.nih.gov/pubmed/8896569", 
+            "http://www.ncbi.nlm.nih.gov/pubmed/20598273"
+         ], 
+         "ideal_answer": [
+            "Coding sequence mutations in RET, GDNF, EDNRB, EDN3, and SOX10 are involved in the development of Hirschsprung disease. The majority of these genes was shown to be related to Mendelian syndromic forms of Hirschsprung's disease, whereas the non-Mendelian inheritance of sporadic non-syndromic Hirschsprung disease proved to be complex; involvement of multiple loci was demonstrated in a multiplicative model."
+         ], 
+         "concepts": [
+            "http://www.disease-ontology.org/api/metadata/DOID:10487", 
+            "http://www.nlm.nih.gov/cgi/mesh/2015/MB_cgi?field=uid&exact=Find+Exact+Term&term=D006627", 
+            "http://www.nlm.nih.gov/cgi/mesh/2015/MB_cgi?field=uid&exact=Find+Exact+Term&term=D020412", 
+            "http://www.disease-ontology.org/api/metadata/DOID:11372"
+         ], 
+         "type": "summary", 
+         "id": "55031181e9bde69634000014", 
+         "snippets": [
+            {
+               "offsetInBeginSection": 131, 
+               "offsetInEndSection": 358, 
+               "text": "Hirschsprung disease (HSCR) is a multifactorial, non-mendelian disorder in which rare high-penetrance coding sequence mutations in the receptor tyrosine kinase RET contribute to risk in combination with mutations at other genes", 
+               "beginSection": "abstract", 
+               "document": "http://www.ncbi.nlm.nih.gov/pubmed/15829955", 
+               "endSection": "abstract"
+            }, 
+            ......
+         ]
+      }, 
+```
 
+ran the following commands:
+```
+python scripts/build_vectorstore.py
+python scripts/localtest.py
+```
+
+The results are as follows:
+```
+=== Evaluation Results ===
+No RAG: {'bleu_avg': 0.021502071709305383, 'rouge_l_f1_avg': 0.19045467608115832, 'bertscore_f1_avg': 0.17610591650009155}
+With RAG: {'bleu_avg': 0.09911253919776065, 'rouge_l_f1_avg': 0.2799770875273718, 'bertscore_f1_avg': 0.21979865431785583}
+```
+It is evident that RAG is effective.  
+The experimental results were recorded under log/rag-mini-bioasq.
 
 ### 🔥 For Beginners
 
