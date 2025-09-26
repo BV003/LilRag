@@ -1,5 +1,16 @@
 # LilRag
 
+<!-- Keep these links. Translations will automatically update with the README. -->
+[Deutsch](https://zdoc.app/de/BV003/LilRag) | 
+[English](https://zdoc.app/en/BV003/LilRag) | 
+[Español](https://zdoc.app/es/BV003/LilRag) | 
+[français](https://zdoc.app/fr/BV003/LilRag) | 
+[日本語](https://zdoc.app/ja/BV003/LilRag) | 
+[한국어](https://zdoc.app/ko/BV003/LilRag) | 
+[Português](https://zdoc.app/pt/BV003/LilRag) | 
+[Русский](https://zdoc.app/ru/BV003/LilRag) | 
+[中文](https://zdoc.app/zh/BV003/LilRag)
+
 ### 🚀 Introduction
 
 LilRAG is a lightweight Retrieval-Augmented Generation (RAG) framework designed for rapid experimentation and easy integration.  
