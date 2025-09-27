@@ -118,6 +118,17 @@ data/raw/text
   └── ...
 ```
 
+Modify your config.yaml file by updating the data_dir, and the faiss index_path and meta_path accordingly.
+
+```
+data:
+   data_dir: "data/raw/text/"
+
+faiss:
+   index_path: "data/store/text/faiss.index"
+   meta_path: "data/store/text/meta.pkl"
+```
+
 Build the Vector Store
 
 ```
@@ -176,6 +187,17 @@ A sample data item is as follows:
             ......
          ]
       }, 
+```
+
+Modify your config.yaml file by updating the data_dir, and the faiss index_path and meta_path accordingly.
+
+```
+data:
+   data_dir: "data/raw/rag-mini-bioasq/"
+
+faiss:
+   index_path: "data/store/rag-mini-bioasq/faiss.index"
+   meta_path: "data/store/rag-mini-bioasq/meta.pkl"
 ```
 
 ran the following commands:
