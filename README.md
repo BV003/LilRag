@@ -1,5 +1,7 @@
 # LilRag
 
+<div align="center">
+
 <!-- Keep these links. Translations will automatically update with the README. -->
 [Deutsch](https://zdoc.app/de/BV003/LilRag) | 
 [English](https://zdoc.app/en/BV003/LilRag) | 
@@ -10,6 +12,8 @@
 [Português](https://zdoc.app/pt/BV003/LilRag) | 
 [Русский](https://zdoc.app/ru/BV003/LilRag) | 
 [中文](https://zdoc.app/zh/BV003/LilRag)
+</div>
+
 
 ### 🚀 Introduction
 
